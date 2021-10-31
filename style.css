@@ -1,17 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 15px;
     background-color: hsl(233, 47%, 7%);
     color: #fff;
     position: relative;
 }
 
-.main{
+.main {
     width: 70vw;
     height: auto;
     margin: 10em auto 10em auto;
@@ -20,34 +20,35 @@ body{
     position: relative;
 }
 
-.main h1{
+.main h1 {
     width: 420px;
     padding: 2em;
 }
 
-.main p{
+.main p {
     color: #ccc;
     width: 320px;
     margin: 0 60px;
 }
 
-.hero img{
+.hero img {
     width: 35vw;
     float: right;
     border-radius: 0 15px 15px 0;
 }
 
-.hero::after{
+.hero::after {
     content: "";
     position: absolute;
-  width: 50%;
-  height: 100%;
-  margin-left: 33.45em;
+    width: 50%;
+    height: 100%;
+    margin-left: 33.45em;
     background-color: rgba(90, 22, 133, 0.6);
     border-radius: 0 15px 15px 0;
 }
 
-.footer h1, .footer p{
+.footer h1,
+.footer p {
     width: 40px;
     height: 10px;
     margin: 2em 0 0 2em;
@@ -55,14 +56,14 @@ body{
     font-size: 1.4em;
 }
 
-.footer p{
+.footer p {
     font-size: smaller;
     margin-top: 10px;
     margin-left: 41px;
     text-transform: uppercase;
 }
 
-.footer ul li{
+.footer ul li {
     list-style: none;
     display: inline-block;
     margin: 0 1.25em;
@@ -73,5 +74,4 @@ body{
     content: "";
     clear: both;
     display: table;
-  }
-
+}
